@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"])   # code an argument 
+ def roll_call_dwarves(dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"])   # code an argument 
 dwarves.each_with_index {|dwv, idx| puts "#{idx+1} #{dwv}"}
 end
 
